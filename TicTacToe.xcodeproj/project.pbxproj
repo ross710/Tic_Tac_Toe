@@ -15,10 +15,7 @@
 		91CD76921844A45C009CACCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD76911844A45C009CACCC /* main.m */; };
 		91CD76961844A45C009CACCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD76951844A45C009CACCC /* AppDelegate.m */; };
 		91CD76991844A45C009CACCC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CD76971844A45C009CACCC /* Main_iPhone.storyboard */; };
-		91CD769C1844A45C009CACCC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91CD769A1844A45C009CACCC /* Main_iPad.storyboard */; };
 		91CD769F1844A45C009CACCC /* TicTacToe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91CD769D1844A45C009CACCC /* TicTacToe.xcdatamodeld */; };
-		91CD76A21844A45C009CACCC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD76A11844A45C009CACCC /* MasterViewController.m */; };
-		91CD76A51844A45C009CACCC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD76A41844A45C009CACCC /* DetailViewController.m */; };
 		91CD76A71844A45C009CACCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CD76A61844A45C009CACCC /* Images.xcassets */; };
 		91CD76AE1844A45D009CACCC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CD76AD1844A45D009CACCC /* XCTest.framework */; };
 		91CD76AF1844A45D009CACCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CD76831844A45C009CACCC /* Foundation.framework */; };
@@ -26,6 +23,9 @@
 		91CD76B11844A45D009CACCC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CD76891844A45C009CACCC /* CoreData.framework */; };
 		91CD76B91844A45D009CACCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91CD76B71844A45D009CACCC /* InfoPlist.strings */; };
 		91CD76BB1844A45D009CACCC /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD76BA1844A45D009CACCC /* TicTacToeTests.m */; };
+		91CD76C61844A5B3009CACCC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD76C51844A5B3009CACCC /* MainViewController.m */; };
+		91CD76C91844A619009CACCC /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD76C81844A619009CACCC /* BoardView.m */; };
+		91CD76CC1844B0D1009CACCC /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CD76CB1844B0D1009CACCC /* Square.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,18 +51,19 @@
 		91CD76941844A45C009CACCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91CD76951844A45C009CACCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		91CD76981844A45C009CACCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		91CD769B1844A45C009CACCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		91CD769E1844A45C009CACCC /* TicTacToe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicTacToe.xcdatamodel; sourceTree = "<group>"; };
-		91CD76A01844A45C009CACCC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		91CD76A11844A45C009CACCC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		91CD76A31844A45C009CACCC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		91CD76A41844A45C009CACCC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		91CD76A61844A45C009CACCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91CD76AC1844A45D009CACCC /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91CD76AD1844A45D009CACCC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		91CD76B61844A45D009CACCC /* TicTacToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicTacToeTests-Info.plist"; sourceTree = "<group>"; };
 		91CD76B81844A45D009CACCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91CD76BA1844A45D009CACCC /* TicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeTests.m; sourceTree = "<group>"; };
+		91CD76C41844A5B3009CACCC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		91CD76C51844A5B3009CACCC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		91CD76C71844A619009CACCC /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		91CD76C81844A619009CACCC /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		91CD76CA1844B0D1009CACCC /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		91CD76CB1844B0D1009CACCC /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,12 +128,13 @@
 			children = (
 				91CD76941844A45C009CACCC /* AppDelegate.h */,
 				91CD76951844A45C009CACCC /* AppDelegate.m */,
+				91CD76C41844A5B3009CACCC /* MainViewController.h */,
+				91CD76C51844A5B3009CACCC /* MainViewController.m */,
+				91CD76C71844A619009CACCC /* BoardView.h */,
+				91CD76C81844A619009CACCC /* BoardView.m */,
+				91CD76CA1844B0D1009CACCC /* Square.h */,
+				91CD76CB1844B0D1009CACCC /* Square.m */,
 				91CD76971844A45C009CACCC /* Main_iPhone.storyboard */,
-				91CD769A1844A45C009CACCC /* Main_iPad.storyboard */,
-				91CD76A01844A45C009CACCC /* MasterViewController.h */,
-				91CD76A11844A45C009CACCC /* MasterViewController.m */,
-				91CD76A31844A45C009CACCC /* DetailViewController.h */,
-				91CD76A41844A45C009CACCC /* DetailViewController.m */,
 				91CD76A61844A45C009CACCC /* Images.xcassets */,
 				91CD769D1844A45C009CACCC /* TicTacToe.xcdatamodeld */,
 				91CD768C1844A45C009CACCC /* Supporting Files */,
@@ -245,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91CD769C1844A45C009CACCC /* Main_iPad.storyboard in Resources */,
 				91CD76A71844A45C009CACCC /* Images.xcassets in Resources */,
 				91CD76991844A45C009CACCC /* Main_iPhone.storyboard in Resources */,
 				91CD76901844A45C009CACCC /* InfoPlist.strings in Resources */,
@@ -267,11 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91CD76A51844A45C009CACCC /* DetailViewController.m in Sources */,
-				91CD76A21844A45C009CACCC /* MasterViewController.m in Sources */,
+				91CD76CC1844B0D1009CACCC /* Square.m in Sources */,
+				91CD76C61844A5B3009CACCC /* MainViewController.m in Sources */,
 				91CD769F1844A45C009CACCC /* TicTacToe.xcdatamodeld in Sources */,
 				91CD76961844A45C009CACCC /* AppDelegate.m in Sources */,
 				91CD76921844A45C009CACCC /* main.m in Sources */,
+				91CD76C91844A619009CACCC /* BoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +310,6 @@
 				91CD76981844A45C009CACCC /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		91CD769A1844A45C009CACCC /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91CD769B1844A45C009CACCC /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		91CD76B71844A45D009CACCC /* InfoPlist.strings */ = {
